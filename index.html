@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Abu Sanny</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@0.0.0/css/line.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">    
+
+</head>
+<body>
+    <!-- Container -->
+    <div class="container">
+        <!-- Navigation Menu -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Abu Sanny</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#education" class="nav-link">Education</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#experience" class="nav-link">Experience</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#certifications" class="nav-link">Certifications</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#achievements" class="nav-link">Achievements</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#publications" class="nav-link">Publications</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#volunteering" class="nav-link">Volunteering</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#skills" class="nav-link">Skills</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Dark Mode Toggle -->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch" role="button" aria-pressed="false" tabindex="0" aria-label="Toggle Dark Mode">
+                    <i class="fa fa-moon" id="moon" aria-hidden="true"></i>
+                    <i class="fa fa-sun" id="sun" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!-- Navigation Menu Button for Mobile -->
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()" role="button" tabindex="0" aria-label="Toggle Navigation Menu"></i>
+            </div>
+        </nav>
+
+        <!-- Main Wrapper -->
+        <main class="wrapper">
+            <!-- Home Section -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello, I am</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Abu Sanny. I am a MedTech Student interested in AI in Healthcare.</p>
+                    </div>
+                    <div class="text-btn">
+                        <a href="https://drive.google.com/file/d/1N18mLOU_4PFFIKrchQwhCIYX-y_nqBY4/view?usp=share_link" download class="btn">Download CV <i class="uil uil-file"></i></a>
+                    </div>
+                    <div class="social_icons">
+                        <a href="https://instagram.com/abusanny" target="_blank" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/in/abusanny" target="_blank" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/abusanny" target="_blank" class="icon"><i class="fa-brands fa-github-alt"></i></a>
+                        <div class="icon_circle"></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="Portfolio.png" alt="Abu Sanny - MedTech Student">
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <img src="Photo_2.jpg" alt="Abu Sanny" class="profile" />
+                                <figcaption>
+                                    <h2>M.Tech in Medical Technology</h2>
+                                    <p>Currently pursuing M.Tech at IIT Jodhpur and AIIMS Jodhpur, specializing in AI applications in healthcare.</p>
+                                </figcaption>
+                            </figure>
+                            <a href="#contact" class="about-me-btn">Hire Me</a>
+                        </div>
+                    </div>
+                </div>        
+            </section>
+
+            <!-- Education Section -->
+            <section class="section" id="education">
+                <div class="top-header">
+                    <h1>Education</h1>
+                </div>
+                <div class="education-container">
+                    <div class="education-item">
+                        <h2>M.Tech in Medical Technology</h2>
+                        <p>Indian Institute of Technology, Jodhpur (IIT Jodhpur) & All India Institute of Medical Sciences, Jodhpur (AIIMS Jodhpur)</p>
+                        <span>July 2022 – May 2024</span>
+                        <span>CGPA: 8.3/10.0</span>
+                    </div>
+                    <div class="education-item">
+                        <h2>B.Tech in Electronics and Communication Engineering (ECE)</h2>
+                        <p>Aliah University, Kolkata</p>
+                        <span>August 2017 – September 2021</span>
+                        <span>CGPA: 8.27/10.0</span>
+                    </div>
+                    <div class="education-item">
+                        <h2>Higher Secondary</h2>
+                        <p>Islamganj High Madrasah (H.S.), Nadia</p>
+                        <span>August 2014 – September 2016</span>
+                        <span>Score: 79.2%</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="section" id="experience">
+                <div class="top-header">
+                    <h1>Experience</h1>
+                </div>
+                <div class="experience-container">
+                    <div class="experience-item">
+                        <h2>Intern, Indian Statistical Institute, Kolkata (ISI Kolkata)</h2>
+                        <p>Summer School on Computer Vision, Image Processing, Machine Learning, and Vision Language Models.</p>
+                        <span>June 2024 – July 2024</span>
+                        <ul>
+                            <li>Conducted a comparative study of MaskFormer and Mask2Former models for tumor segmentation from CT images.</li>
+                            <li>Focused on lung and liver tumors, assessing model efficacy using metrics like Mean Intersection-over-Union (MIoU) and Panoptic Quality (PQ).</li>
+                            <li>Demonstrated that Mask2Former showed superior performance, with applications in clinical settings for improved diagnostic accuracy.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h2>Data Science Intern, National Institute of Technology, Jamshedpur (NIT Jamshedpur)</h2>
+                        <p>Developed an automated system for detecting autism using Generative Adversarial Networks (GAN).</p>
+                        <span>July 2023 – August 2023</span>
+                        <ul>
+                            <li>Analyzed behavioral patterns through image data to identify signs of autism spectrum disorders.</li>
+                            <li>Applied advanced machine learning techniques to improve autism detection accuracy.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h2>Master’s Thesis Candidate, IIT Jodhpur</h2>
+                        <p>Designed a soft, breathable, and flexible IV cannula stabilizer to improve patient comfort and safety.</p>
+                        <span>2023 – 2024</span>
+                        <ul>
+                            <li>Investigated materials offering flexibility, breathability, and secure placement, reducing complications such as phlebitis and accidental removal.</li>
+                            <li>Pre-incubating the project for commercialization and business development.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h2>B.Tech Project Student, Aliah University</h2>
+                        <p>Developed a system using optical fibers to harness and distribute sunlight indoors.</p>
+                        <span>2020 – 2021</span>
+                        <ul>
+                            <li>Demonstrated the feasibility of solar illumination indoors, contributing to energy savings.</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h2>Teaching Assistant, IIT Jodhpur</h2>
+                        <p>Taught Basic Electronics to B.Tech first-year students, assisted in coursework and exams, provided tutoring.</p>
+                        <span>July 2022 – May 2024</span>
+                    </div>
+                    <div class="experience-item">
+                        <h2>Doubt Solving Expert, Unacademy</h2>
+                        <p>Offered guidance and problem-solving assistance to learners.</p>
+                        <span>June 2021 – Present</span>
+                    </div>
+                    <div class="experience-item">
+                        <h2>SME as Advanced Math, Chegg India & Course Hero</h2>
+                        <p>Provided expert assistance in advanced mathematics to learners.</p>
+                        <span>May 2020 – Present</span>
+                    </div>
+                    <div class="experience-item">
+                        <h2>Tutor, Ideal Child Home, Malda</h2>
+                        <p>Taught various subjects to K-12 students, focusing on enhancing their understanding and performance.</p>
+                        <span>January 2019 – December 2019</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box" style="background-image: url('Tumor.png');">
+                        <div class="project-content">
+                            <i class="uil uil-briefcase-alt"></i>
+                            <h3>Mask2Former for Tumor Segmentation</h3>
+                            <label>Internship at ISI Kolkata</label>
+                            <a href="https://github.com/abusanny/mask2former-tumor-segmentation" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-box" style="background-image: url('IV_cannula.jpg');">
+                        <div class="project-content">
+                            <i class="uil uil-user-alt"></i>
+                            <h3>Autism Detection GAN</h3>
+                            <label>Internship at NIT Jamshedpur</label>
+                            <a href="https://github.com/abusanny/autism-detection-gan" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-box" style="background-image: url('IV_cannula.jpg');">
+                        <div class="project-content">
+                            <i class="uil uil-award"></i>
+                            <h3>IV Cannula Stabilizer</h3>
+                            <label>Master’s Thesis at IIT Jodhpur</label>
+                            <a href="https://patents.google.com/patent/US20240000000A1/en" target="_blank" class="btn">View Patent</a>
+                        </div>
+                    </div>
+                    <div class="project-box" style="background-image: url('images/project4-bg.jpg');">
+                        <div class="project-content">
+                            <i class="uil uil-sun"></i>
+                            <h3>Daylighting using Optical Fiber</h3>
+                            <label>B.Tech Project at Aliah University</label>
+                            <a href="https://github.com/abusanny/solar-illumination-system" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications Section -->
+            <section class="section" id="certifications">
+                <div class="top-header">
+                    <h1>Certifications</h1>
+                </div>
+                <div class="certifications-container">
+                    <div class="certification-item">
+                        <h2>Machine Learning and IoT</h2>
+                        <p>Short-term course by National Institute of Technology, Jamshedpur</p>
+                        <span>2023</span>
+                        <a href="https://link-to-your-certificate1.com" target="_blank" class="certificate-link">View Certificate</a>
+                    </div>
+                    <div class="certification-item">
+                        <h2>Computer Vision and Machine Learning</h2>
+                        <p>IIIT Hyderabad (Online)</p>
+                        <span>2022</span>
+                        <a href="https://link-to-your-certificate2.com" target="_blank" class="certificate-link">View Certificate</a>
+                    </div>
+                    <div class="certification-item">
+                        <h2>Data Science</h2>
+                        <p>DataCamp</p>
+                        <span>2021</span>
+                        <a href="https://link-to-your-certificate3.com" target="_blank" class="certificate-link">View Certificate</a>
+                    </div>
+                    <div class="certification-item">
+                        <h2>Ninth Summer School on Computer Vision</h2>
+                        <p>Indian Statistical Institute, Kolkata</p>
+                        <span>2024</span>
+                        <a href="https://link-to-your-certificate4.com" target="_blank" class="certificate-link">View Certificate</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Achievements Section -->
+            <section class="section" id="achievements">
+                <div class="top-header">
+                    <h1>Achievements</h1>
+                </div>
+                <div class="achievements-container">
+                    <ul>
+                        <li><strong>GATE Qualified:</strong> Successfully qualified the Graduate Aptitude Test in Engineering (GATE) three times.</li>
+                        <li><strong>Institute Fellowship:</strong> Awarded by IIT Jodhpur based on All India Rank (AIR), fostering innovation and entrepreneurship.</li>
+                        <li><strong>Best Medical Device Design:</strong> Recognized at IIT Guwahati Biodesign Hackathon for outstanding medical device innovation.</li>
+                        <li><strong>Contingency Fund Award:</strong> Received from ANSYS Software Pvt. Ltd. for project development support.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Publications Section -->
+            <section class="section" id="publications">
+                <div class="top-header">
+                    <h1>Publications</h1>
+                </div>
+                <div class="publications-container">
+                    <ul>
+                        <li><strong>GAN-Based Data Augmentation for CNN Detection of Autism from Images:</strong> Manuscript under processing.</li>
+                        <li><strong>Soft Breathable, Flexible IV Cannula Stabilizer:</strong> Patent application submitted.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Volunteering Section -->
+            <section class="section" id="volunteering">
+                <div class="top-header">
+                    <h1>Volunteering</h1>
+                </div>
+                <div class="volunteering-container">
+                    <div class="volunteering-item">
+                        <h2>Organizing Team Member</h2>
+                        <p>Indian Conference on Medical Technology (ICMI), IIT Jodhpur & AIIMS Jodhpur</p>
+                        <span>2023</span>
+                    </div>
+                    <div class="volunteering-item">
+                        <h2>Coordinator</h2>
+                        <p>Workshop on Field Robotics, IIT Jodhpur</p>
+                        <span>2022</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="section" id="skills">
+                <div class="top-header">
+                    <h1>Skills</h1>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-category">
+                        <h2>Programming</h2>
+                        <ul>
+                            <li class="skill-item">Python</li>
+                            <li class="skill-item">MATLAB</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h2>Data Analysis</h2>
+                        <ul>
+                            <li class="skill-item">SQL</li>
+                            <li class="skill-item">Pandas</li>
+                            <li class="skill-item">NumPy</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h2>Machine Learning</h2>
+                        <ul>
+                            <li class="skill-item">scikit-learn</li>
+                            <li class="skill-item">TensorFlow</li>
+                            <li class="skill-item">PyTorch</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h2>Data Visualization</h2>
+                        <ul>
+                            <li class="skill-item">Matplotlib</li>
+                            <li class="skill-item">Seaborn</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h2>Other Skills</h2>
+                        <ul>
+                            <li class="skill-item">Deep Learning</li>
+                            <li class="skill-item">GAN Architecture</li>
+                            <li class="skill-item">Continual Learning</li>
+                            <li class="skill-item">Excel</li>
+                            <li class="skill-item">Keynote</li>
+                            <li class="skill-item">Electronic Circuits</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h2>Tools</h2>
+                        <ul>
+                            <li class="skill-item">Jupyter Notebook</li>
+                            <li class="skill-item">Git</li>
+                            <li class="skill-item">Google Colab</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h2>Languages</h2>
+                        <ul>
+                            <li class="skill-item">Bengali</li>
+                            <li class="skill-item">Hindi</li>
+                            <li class="skill-item">English</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work Together</h1>
+                    <span>Do you have any projects or ideas in mind? Let's collaborate!</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: <a href="mailto:m22id008@iit.ac.in">m22id008@iit.ac.in</a></p>
+                            <p><i class="uil uil-phone"></i> Phone: <a href="tel:+918346807930">+91 8346807930</a></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <form class="form-control" action="#" method="POST">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" name="name" placeholder="Your Name" required>
+                                <input type="email" class="input-field" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" name="subject" placeholder="Subject" required>
+                                <textarea name="message" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#education">Education</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#certifications">Certifications</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#achievements">Achievements</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#publications">Publications</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#volunteering">Volunteering</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a href="https://instagram.com/abusanny" target="_blank" class="icon"><i class="uil uil-instagram"></i></a>
+                <a href="https://linkedin.com/in/abusanny" target="_blank" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/abusanny" target="_blank" class="icon"><i class="uil uil-github-alt"></i></a>
+                <a href="https://behance.net/abusanny" target="_blank" class="icon"><i class="uil uil-behance-alt"></i></a>
+            </div>
+            <div class="bottom-footer">
+                <p>© <a href="#home" style="text-decoration: none;">Abu Sanny</a>. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- ScrollReveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Custom JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
